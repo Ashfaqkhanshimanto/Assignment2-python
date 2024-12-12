@@ -84,7 +84,7 @@ def largest_area():
 if __name__ == "__main__":
     setup_database()
 
-    # Assuming countries.csv is formatted with columns: name, area, population
+    #countries.csv
     csv_file = 'countries.csv'
     ingest_data(csv_file)
 
